@@ -1,0 +1,40 @@
+{
+  "name": "Hebrew Calendar — Kingdom Preppers",
+  "short_name": "Hebrew Cal",
+  "description": "Kingdom Preppers Hebrew Calendar 2026–2027. Track feasts, Shabbats, and appointed times.",
+  "start_url": "./hebrew-calendar.html",
+  "display": "standalone",
+  "background_color": "#0E0B06",
+  "theme_color": "#0E0B06",
+  "orientation": "portrait",
+  "categories": ["lifestyle", "education"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='30' fill='%230E0B06'/%3E%3Cg stroke='%23C8973A' stroke-width='10' stroke-linecap='round' fill='none'%3E%3Cline x1='40' y1='150' x2='96' y2='60'/%3E%3Cline x1='152' y1='150' x2='96' y2='60'/%3E%3Cline x1='55' y1='108' x2='137' y2='108'/%3E%3Cline x1='96' y1='60' x2='70' y2='38'/%3E%3Cline x1='96' y1='60' x2='122' y2='38'/%3E%3C/g%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='80' fill='%230E0B06'/%3E%3Cg stroke='%23C8973A' stroke-width='26' stroke-linecap='round' fill='none'%3E%3Cline x1='106' y1='400' x2='256' y2='160'/%3E%3Cline x1='406' y1='400' x2='256' y2='160'/%3E%3Cline x1='148' y1='288' x2='364' y2='288'/%3E%3Cline x1='256' y1='160' x2='186' y2='100'/%3E%3Cline x1='256' y1='160' x2='326' y2='100'/%3E%3C/g%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Feasts 2026",
+      "short_name": "Feasts",
+      "description": "View all 2026-2027 appointed times",
+      "url": "./hebrew-calendar.html#feasts"
+    },
+    {
+      "name": "Today",
+      "short_name": "Today",
+      "description": "Jump to today's Hebrew date",
+      "url": "./hebrew-calendar.html"
+    }
+  ]
+}

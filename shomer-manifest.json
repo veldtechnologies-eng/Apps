@@ -1,0 +1,34 @@
+{
+  "name": "Shomer — AI Security Guard",
+  "short_name": "Shomer",
+  "description": "Shomer — AI-powered phone security. The Watchman protecting your device from AI threats, phishing, and spam.",
+  "start_url": "./shomer-security.html",
+  "display": "standalone",
+  "background_color": "#050A08",
+  "theme_color": "#050A08",
+  "orientation": "portrait",
+  "categories": ["security", "utilities"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='30' fill='%23050A08'/%3E%3Cpath d='M96 28L32 56v56c0 44 28 78 64 88 36-10 64-44 64-88V56L96 28z' fill='rgba(0,255,136,0.08)' stroke='%2300FF88' stroke-width='4' stroke-linejoin='round'/%3E%3Cg stroke='%2300FF88' stroke-width='7' stroke-linecap='round' fill='none'%3E%3Cline x1='60' y1='140' x2='96' y2='72'/%3E%3Cline x1='132' y1='140' x2='96' y2='72'/%3E%3Cline x1='60' y1='72' x2='96' y2='72'/%3E%3Cline x1='60' y1='140' x2='60' y2='105'/%3E%3Cline x1='132' y1='140' x2='132' y2='105'/%3E%3Cline x1='60' y1='105' x2='132' y2='105'/%3E%3C/g%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='80' fill='%23050A08'/%3E%3Cpath d='M256 70L84 148v150c0 116 74 206 172 232 98-26 172-116 172-232V148L256 70z' fill='rgba(0,255,136,0.08)' stroke='%2300FF88' stroke-width='10' stroke-linejoin='round'/%3E%3Cg stroke='%2300FF88' stroke-width='18' stroke-linecap='round' fill='none'%3E%3Cline x1='160' y1='375' x2='256' y2='192'/%3E%3Cline x1='352' y1='375' x2='256' y2='192'/%3E%3Cline x1='160' y1='192' x2='256' y2='192'/%3E%3Cline x1='160' y1='375' x2='160' y2='280'/%3E%3Cline x1='352' y1='375' x2='352' y2='280'/%3E%3Cline x1='160' y1='280' x2='352' y2='280'/%3E%3C/g%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Scanner",
+      "short_name": "Scan",
+      "description": "Scan a link or message for threats",
+      "url": "./shomer-security.html#scan"
+    }
+  ]
+}
